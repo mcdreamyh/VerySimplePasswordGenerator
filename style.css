@@ -24,7 +24,8 @@ body {
     background-color: #438fbb9c;
     padding: 20px 20px;
     border-radius: 5px;
-    width: 530px;
+    min-width: fit-content;
+    max-width: 530px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -67,5 +68,6 @@ body {
     border-radius: 5px;
     color: #000000;
     user-select: text;
-    width: 510px;
+    width: fit-content;
+    max-width: 510px;
 }
